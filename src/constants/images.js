@@ -19,7 +19,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import welis from '../assets/welis.png';
 import whatsapp from '../assets/whatsapp.png';
-import character from '../assets/character.png';
+import character from '../assets/character.webp';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
