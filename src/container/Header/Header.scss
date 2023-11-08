@@ -116,6 +116,7 @@
         img {
             width: 60%;
             height: 60%;
+            object-fit: contain;
         }
     }
 
@@ -150,12 +151,13 @@
             width: 170px;
             height: 170px;
         }
+
     }
 
     @media screen and (max-width: 1200px) {
         width: 100%;
         flex-direction: row;
-        // flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center; /* Menengahkan elemen */
         margin-left: 0;
         
@@ -163,6 +165,15 @@
             margin: 1rem;
             width: 100px; /* Lebar tetap untuk lingkaran di mode mobile */
             height: 100px; /* Tinggi tetap untuk lingkaran di mode mobile */
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+
+        div {
+            margin: 1rem;
+            width: 80px; /* Lebar tetap untuk lingkaran di mode mobile */
+            height: 80px; /* Tinggi tetap untuk lingkaran di mode mobile */
         }
     }
 }
