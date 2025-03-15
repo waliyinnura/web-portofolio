@@ -69,15 +69,15 @@
     }
 
     @media screen and (max-width: 768px) {
-      cursor: pointer; /* Ubah kursor menjadi pointer di seluler */
+      cursor: pointer;
       
       .app__work-hover {
-        display: none; /* Sembunyikan elemen hover pada tampilan seluler */
+        display: none;
       }
       
       &.is-clicked .app__work-hover {
-        display: block; /* Tampilkan elemen hover saat item di-klik di seluler */
-        opacity: 1; /* Tambahkan opacity 1 saat elemen di-klik */
+        display: block;
+        opacity: 1;
       }
     }
   
